@@ -5,9 +5,19 @@ name = "pypi"
 
 [packages]
 ipywidgets = "*"
+numpy = "*"
+matplotlib = "*"
+sklearn = "*"
+opencv-python = "*"
+pandas = "*"
+jupyter = "*"
+japanize-matplotlib = "*"
 
 [dev-packages]
 ipykernel = "*"
 
 [requires]
-python_version = "3.9"
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
